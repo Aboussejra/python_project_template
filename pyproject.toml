@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry_template"
+version = "0.1.0"
+description = ""
+authors = ["Boussejra Amir"]
+
+[tool.poetry.dependencies]
+python = "^3.9.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^6.0.0"
+mypy = "^0.991"
+black = "^22.10.0"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

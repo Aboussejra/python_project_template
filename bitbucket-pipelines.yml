@@ -1,0 +1,10 @@
+image: python:3.9.2
+before_install:
+- pip install poetry
+install:
+- poetry install
+script:
+- make fmt
+- make test
+- make types
+- make lint
